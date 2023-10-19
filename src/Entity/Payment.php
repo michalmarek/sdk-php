@@ -33,7 +33,7 @@ class Payment
 		return $this;
 	}
 
-	public function getParam($paramName): mixed
+	public function getParam($paramName)
 	{
 		if (isset($this->params[$paramName])) {
 			return $this->params[$paramName];
